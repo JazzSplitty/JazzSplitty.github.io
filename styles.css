@@ -119,5 +119,5 @@ a:active {
   left: 50px; 
 }
 #thingy {
-  overflow: auto; /* Change to the desired overflow value */
+  overflow: auto; 
 }
