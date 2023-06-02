@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 4 - Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Great Jazz's Plaza of Whimsy!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Page 1</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+            <li><a href="page3.html">Page 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>What is your favorite kind of pasta noodle?</h2>
+        <form action="submit_form.php" method="POST">
+            <div>
+                <label for="name">Pasta Noodle:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Reasoning:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Other thoughts/input:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <a href="index.html" class="btn">Go back to Home</a>
+    </main>
+    <footer>
+        &copy; 1911. All rights reserved as long as you were apart of the Marxist Bourgeoisie
+    </footer>
+</body>
+</html>
